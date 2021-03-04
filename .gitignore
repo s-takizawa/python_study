@@ -130,3 +130,5 @@ dmypy.json
 
 # add
 sample
+cp16
+/pyboringstuff/input_data/output_*
