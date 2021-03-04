@@ -11,17 +11,17 @@ print('start')
 # read
 with open(r'input_data\data1.csv') as file:
     reader = csv.reader(file)
-    for row in reader:
-        print(row)
+    dat = [row for row in reader]
+    print(dat)
 
 print('------------')
 
 # dict read
 with open(r'input_data\data2.csv') as file:
     reader = csv.DictReader(file)
-    for row in reader:
-        print(row)
-
+    dat = [row for row in reader]
+    print(dat)
+    
 print('------------')
 
 # write
